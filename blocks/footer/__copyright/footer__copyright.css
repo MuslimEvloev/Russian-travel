@@ -1,0 +1,28 @@
+.copyright {
+  position: absolute;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Inter;
+  font-weight: normal;
+  margin-left: 1080px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+  .copyright {
+    margin-left: 824px;
+  }
+}
+
+@media (max-width: 768px) {
+  .copyright {
+    margin-left: 550px;
+  }
+}
+
+@media (max-width: 375px) {
+  .copyright {
+    position: static;
+    margin-left: 0;
+  }
+}

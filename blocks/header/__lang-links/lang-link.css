@@ -1,0 +1,20 @@
+.lang-link {
+  display: inline;
+  right: 48px;
+  top: 28px;
+}
+.lang-link__ru {
+  text-decoration: none;
+  margin-right: 18px;
+  color: #ffffff;
+}
+.lang-link__en {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 320px) {
+  .lang-link {
+    font-style: 18px;
+  }
+}
